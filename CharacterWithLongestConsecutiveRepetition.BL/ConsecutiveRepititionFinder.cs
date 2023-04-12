@@ -39,9 +39,11 @@
                         }
                     }
 
-                    if (currentCount >= maxCount)
+                    if (currentCount > maxCount)
                     {
                         maxCount = currentCount;
+
+                        maxChar = input[i - 1];
                     }
                 }
 
