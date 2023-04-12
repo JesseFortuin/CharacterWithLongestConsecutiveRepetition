@@ -22,7 +22,7 @@
                     else
                     {
 
-                        if (currentCount == maxCount)
+                        if (currentCount > maxCount)
                         {
                             maxChar = input[i - 1];
 
@@ -31,7 +31,7 @@
 
                         if (currentCount >= maxCount)
                         {
-                            maxChar = input[i - 1];
+                            //maxChar = input[i - 1];
 
                             maxCount = currentCount;
 
